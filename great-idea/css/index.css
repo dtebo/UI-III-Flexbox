@@ -84,6 +84,14 @@ h1, h2, h3, h4, h5 {
 
 /* Navigation Styles */
 .site-navigation{
+	background-image: linear-gradient(120deg, #fcc258 0%, #ffb222 30%, #ffb922 60%, #fc8f01 100%);
+	font-size: 1.1em;
 	line-height: 2em;
 	padding: 10px 15px;
+}
+
+.site-navigation a{
+	color: rgb(255, 255, 255);
+	font-family: 'Bellota';
+	text-decoration: none;
 }
