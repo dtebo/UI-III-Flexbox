@@ -81,3 +81,9 @@ h1, h2, h3, h4, h5 {
 .vertical{
 	flex-direction: column;
 }
+
+/* Navigation Styles */
+.site-navigation{
+	line-height: 2em;
+	padding: 10px 15px;
+}
