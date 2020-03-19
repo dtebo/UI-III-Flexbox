@@ -66,12 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Wrapper Styles */
 .site-wrapper{
 	margin: 0 auto;
-	width: 90%;
+	width: 1000px;
 }
 
 /* Global Style Classes */
 .flex-container{
 	display: flex;
+	justify-content: space-between;
 }
 
 .horizontal{
@@ -88,6 +89,10 @@ h1, h2, h3, h4, h5 {
 	font-size: 1.1em;
 	line-height: 2em;
 	padding: 10px 15px;
+}
+
+#nav-link-container{
+	justify-content: space-around;
 }
 
 .site-navigation a{
@@ -122,4 +127,23 @@ h1, h2, h3, h4, h5 {
 	content: '>';
 	top: 0;
 	right: 0;
+}
+
+/* Hero Styles */
+#hero-text{
+	font-size: 5em;
+	justify-content: center;
+	text-align: center;
+}
+
+#call-to-action{
+	background: none;
+	border: 1px solid rgb(240, 140, 10);
+	height: 50px;
+}
+
+/* Content Styles */
+#content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
