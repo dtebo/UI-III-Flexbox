@@ -63,4 +63,21 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Wrapper Styles */
+.site-wrapper{
+	margin: 0 auto;
+	width: 80%;
+}
+
+/* Global Style Classes */
+.flex-container{
+	display: flex;
+}
+
+.horizontal{
+	flex-direction: row;
+}
+
+.vertical{
+	flex-direction: column;
+}
