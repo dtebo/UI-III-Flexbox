@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Wrapper Styles */
 .site-wrapper{
 	margin: 0 auto;
-	width: 900px;
+	width: 80%;
 }
 
 /* Global Style Classes */
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-evenly;
 }
 
-.site-navigation a{
+#nav-link-container a{
 	color: rgb(255, 255, 255);
 	font-family: 'Bellota';
 	line-height: 4.5em;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 	vertical-align: middle;
 }
 
-.site-navigation a:before{
+#nav-link-container a:before{
 	content: '';
 	position: relative;
 	top: 0;
@@ -116,13 +116,13 @@ h1, h2, h3, h4, h5 {
 	transition: all .2s ease-in-out;
 }
 
-.site-navigation a:hover:before{
+#nav-link-container a:hover:before{
 	content: '<';
 	top: 0;
 	left: 0;
 }
 
-.site-navigation a:after{
+#nav-link-container a:after{
 	content: '';
 	position: relative;
 	top: 0;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5 {
 	transition: all .2s ease-in-out;
 }
 
-.site-navigation a:hover:after{
+#nav-link-container a:hover:after{
 	content: '>';
 	top: 0;
 	right: 0;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5 {
 
 /* Hero Styles */
 .hero{
-	padding: 140px 0;
+	padding: 140px 0 50px 0;
 }
 
 #hero-text{
